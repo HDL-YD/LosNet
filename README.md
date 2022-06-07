@@ -1,3 +1,11 @@
+## **Introduction**
+
+LosNet is  a novel efficient and lightweight framework for ore image segmentation.
+
+For more details, please refer to our [paper](https://www.mdpi.com/2075-163X/12/5/526).
+
+The source code can be found in [AdelaiDet](https://github.com/aim-uofa/AdelaiDet.git) . AdelaiDet is an open source toolbox for multiple instance-level recognition tasks on top of [Detectron2](https://github.com/facebookresearch/detectron2).
+
 ## Installation
 
 ### Requirements
@@ -71,3 +79,15 @@ Note that:
 - We set `OMP_NUM_THREADS=1` by default, which achieves the best speed on our machines, please change it as needed.
 - This quick start is made for LosNet. If you are using other projects, please check the projects' own `README.md` in [configs](configs). 
 - When you run the demo, the folder is determined according to your situation.
+
+## **Cite**
+
+```
+@inproceedings{tian2020conditional,
+  title     =  {Conditional Convolutions for Instance Segmentation},
+  author    =  {Tian, Zhi and Shen, Chunhua and Chen, Hao},
+  booktitle =  {Proc. Eur. Conf. Computer Vision (ECCV)},
+  year      =  {2020}
+}
+```
+
